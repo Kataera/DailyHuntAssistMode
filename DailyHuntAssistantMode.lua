@@ -8,12 +8,9 @@ DailyHuntAssistantMode.hunts = {} -- collection for hunts grouped by Hunt Bill
 DailyHuntAssistantMode.currentTask = nil -- I'm tired to mess with ml_task_hub:CurrentTask() (now I know I could use ml_task_hub:RootTask() but this works fine)
 --[[
 Credits:
-mmominion.com foruum user anahronik made the bulk of this code and he/she should have most of your praise. 
-board users lanceangel, itsu, and kali have also helped along the way.
+This botbase was originally made by anahronik, along with assistance from lanceangel, itsu, and kali and likely others. The Endwalker version was updated by Gafgarion and I've updated it for Dawntrail. The code needs a good refactor and it's something I'll do when I get time.
 
-Thank you all for your help! I will try to maintain this for as long as i can and will work to document this file in a way so that others may pick up the torch.
-
--Gafgarion
+- Kataera
 ]]--
 
 -- Set up tables that hold hunt data per expansion/level of hunt
