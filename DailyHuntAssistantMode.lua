@@ -1,11 +1,12 @@
 ﻿DailyHuntAssistantMode = inheritsFrom(ml_task)
-DailyHuntAssistantMode.version = "3.0.0"
+DailyHuntAssistantMode.version = "3.0.1"
 DailyHuntAssistantMode.mode = 1 -- 1 - setup, 2 - run
 DailyHuntAssistantMode.modeName = "XDaily Hunt Assistant"
 DailyHuntAssistantMode.targetName = ""
 DailyHuntAssistantMode.database = {} -- another files load information to this collection
 DailyHuntAssistantMode.hunts = {} -- collection for hunts grouped by Hunt Bill
 DailyHuntAssistantMode.currentTask = nil -- I'm tired to mess with ml_task_hub:CurrentTask() (now I know I could use ml_task_hub:RootTask() but this works fine)
+
 --[[
 Credits:
 This botbase was originally made by anahronik, along with assistance from lanceangel, itsu, and kali and likely others. The Endwalker version was updated by Gafgarion and I've updated it for Dawntrail. The code needs a good refactor and it's something I'll do when I get time.
@@ -363,7 +364,7 @@ function DailyHuntAssistantMode:Draw()
 	GUI:Separator()
 if ( DailyHuntAssistantMode.mode == 1 and FFXIV_Common_BotRunning) then
 		local clicked = false
-		GUI:Text("Teleport To HuntBoard: \n")
+		GUI:Text("Teleport To Hunt Board: \n")
 		if(GUI:Button("ARR##DHAM",40,20)) then
 			clicked = true
 			if ( settings.GC == 1 ) then
@@ -504,7 +505,8 @@ if ( DailyHuntAssistantMode.mode == 1 and FFXIV_Common_BotRunning) then
 				[418] = "Foundation",
 				[628] = "Kugane",
 				[819] = "The Crystarium",
-				[962] = "Old Sharlayan"
+				[962] = "Old Sharlayan",
+				[1185] = "Tuliyollal"
 			}
 			-- varNames are equal to names in DailyHuntAssistantMode:UIInit (where values for variables ale loaded)
 			-- Settings.DailyHuntAssistantMode - Settings is a global table for ffxivminion where all settings for 
