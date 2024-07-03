@@ -482,9 +482,9 @@ DailyHuntAssistantMode.database.dt = {
  [13079] = {
   mapId = 1187,
   pos = {
-   x = 470.69,
-   y = -129.6,
-   z = -294.8	
+   x = 442.43,
+   y = -146.53,
+   z = -394.26	
   }
  },
  [13080] = {
