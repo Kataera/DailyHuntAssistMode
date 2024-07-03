@@ -32,7 +32,7 @@ DailyHuntAssistantMode.hunts[1] = {
 DailyHuntAssistantMode.hunts[2] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.hw,
-	name = "Level 1 Clan Marks (HW)",
+	name = "Level 1 Clan Bills (HW)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -45,7 +45,7 @@ DailyHuntAssistantMode.hunts[2] = {
 DailyHuntAssistantMode.hunts[3] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.hw,
-	name = "Level 2 Clan Marks (HW)",
+	name = "Level 2 Clan Bills (HW)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -58,7 +58,7 @@ DailyHuntAssistantMode.hunts[3] = {
 DailyHuntAssistantMode.hunts[4] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.hw,
-	name = "Level 3 Clan Marks (HW)",
+	name = "Level 3 Clan Bills (HW)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -71,7 +71,7 @@ DailyHuntAssistantMode.hunts[4] = {
 DailyHuntAssistantMode.hunts[5] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.sb,
-	name = "Level 1 Veteran Clan Marks (StB)",
+	name = "Level 1 Veteran Clan Bills (StB)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -84,7 +84,7 @@ DailyHuntAssistantMode.hunts[5] = {
 DailyHuntAssistantMode.hunts[6] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.sb,
-	name = "Level 2 Veteran Clan Marks (StB)",
+	name = "Level 2 Veteran Clan Bills (StB)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -97,7 +97,7 @@ DailyHuntAssistantMode.hunts[6] = {
 DailyHuntAssistantMode.hunts[7] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.sb,
-	name = "Level 3 Veteran Clan Marks (StB)",
+	name = "Level 3 Veteran Clan Bills (StB)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -110,7 +110,7 @@ DailyHuntAssistantMode.hunts[7] = {
 DailyHuntAssistantMode.hunts[8] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.shb,
-	name = "One-nut Clan Marks (ShB)",
+	name = "One-nut Clan Bills (ShB)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -123,7 +123,7 @@ DailyHuntAssistantMode.hunts[8] = {
 DailyHuntAssistantMode.hunts[9] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.shb,
-	name = "Two-nut Clan Marks (ShB)",
+	name = "Two-nut Clan Bills (ShB)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -136,7 +136,7 @@ DailyHuntAssistantMode.hunts[9] = {
 DailyHuntAssistantMode.hunts[10] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.shb,
-	name = "Three-nut Clan Marks (ShB)",
+	name = "Three-nut Clan Bills (ShB)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -149,7 +149,7 @@ DailyHuntAssistantMode.hunts[10] = {
 DailyHuntAssistantMode.hunts[11] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.ew,
-	name = "Junior Guildship Marks (EW)",
+	name = "Junior Guildship Bills (EW)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -162,7 +162,7 @@ DailyHuntAssistantMode.hunts[11] = {
 DailyHuntAssistantMode.hunts[12] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.ew,
-	name = "Associate Guildship Marks (EW)",
+	name = "Associate Guildship Bills (EW)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
@@ -175,7 +175,7 @@ DailyHuntAssistantMode.hunts[12] = {
 DailyHuntAssistantMode.hunts[13] = {
 	GUI = { open = false },
 	data = DailyHuntAssistantMode.database.ew,
-	name = "Senior Guildship Marks (EW)",
+	name = "Senior Guildship Bills (EW)",
 	tasks = {
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
 		{ targetName = "", isDone = false, isBuggy = false, attempts = 0, deaths = 0 },
