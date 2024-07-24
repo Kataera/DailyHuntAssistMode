@@ -6578,7 +6578,7 @@
 },
 {
 	contentId = 8522,
-	name_en = "Sulfur Byrgen",
+	name_en = "Sulphur Byrgen",
 	name_de = "schwefelspross",
 	name_fr = "byrgen de sulfure",
 	name_ja = "サルファー・ビルゲン",
