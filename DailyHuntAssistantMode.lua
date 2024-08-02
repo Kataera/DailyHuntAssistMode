@@ -1,5 +1,5 @@
 ﻿DailyHuntAssistantMode = inheritsFrom(ml_task)
-DailyHuntAssistantMode.version = "3.0.2"
+DailyHuntAssistantMode.version = "3.0.3"
 DailyHuntAssistantMode.mode = 1 -- 1 - setup, 2 - run
 DailyHuntAssistantMode.modeName = "XDaily Hunt Assistant"
 DailyHuntAssistantMode.targetName = ""
@@ -1211,6 +1211,7 @@ DailyHuntAssistantMode.Log("e_setupdham")
 					subnumber = "1"
 				end
 			end
+			
 			local task = {}
 			local language = GetGameLanguage() -- 0 - JA, 1 - EN, 2 - DE, 3 - FR, 6- KO
 			local name_param = "unknown"
@@ -1220,6 +1221,29 @@ DailyHuntAssistantMode.Log("e_setupdham")
 			elseif ( language == 3 ) then name_param = "name_fr"
 			elseif ( language == 6 ) then name_param = "name_ko"
 			end
+			
+			local rangeLower = 0
+			local rangeUpper = 0
+			if ( n == nil ) then -- ARR
+				rangeLower = 4
+				rangeUpper = 2918
+			elseif ( n == "2" ) then -- HW
+				rangeLower = 3470
+				rangeUpper = 4399
+			elseif ( n == "3" ) then -- SB
+				rangeLower = 5671
+				rangeUpper = 5925
+			elseif ( n == "4" ) then -- SHB
+				rangeLower = 8498
+				rangeUpper = 8786
+			elseif ( n == "5" ) then -- EW
+				rangeLower = 10419
+				rangeUpper = 10716
+			elseif ( n == "6" ) then -- DT
+				rangeLower = 12930
+				rangeUpper = 13139
+			end
+				
 			local contentId = 0
 			if ( name_param ~= "unknown") then
 				for i,e in pairs(DailyHuntAssistantMode.database.localization) do
@@ -1229,11 +1253,12 @@ DailyHuntAssistantMode.Log("e_setupdham")
 					if ( language == 2 ) then
 						localname = string.gsub(localname,"%[[apt]%]",".-")
 					end
-					if ( string.match(string.lower(name), localname) ) then
+					if ( string.match(string.lower(name), localname) and e.contentId >= rangeLower and e.contentId <= rangeUpper ) then
 						contentId = e.contentId
 					end
 				end
 			end
+			
 			local targetChanged = false
 			if ( n == nil ) then -- ARR
 				task = dham.hunts[1].tasks[order]

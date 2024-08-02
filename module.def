@@ -1,6 +1,6 @@
 [Module]
 Name=DailyHuntAssistantMode
-Version=3.0.2
+Version=3.0.3
 Files=DailyHuntAssistantMode.lua,fate_task_modification.lua,bot_internal_modifications.lua,db_localization.lua,HuntBaseARR.lua,HuntBaseHW.lua,HuntBaseSB.lua,HuntBaseSHB.lua,HuntBaseEW.lua,HuntBaseDT.lua
 Enabled=1
 Dependencies=minionlib,FFXIVMinion64,AceLib
