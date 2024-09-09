@@ -1225,23 +1225,23 @@ DailyHuntAssistantMode.Log("e_setupdham")
 			local rangeLower = 0
 			local rangeUpper = 0
 			if ( n == nil ) then -- ARR
-				rangeLower = 4
-				rangeUpper = 2918
+				rangeLower = 0
+				rangeUpper = 3100
 			elseif ( n == "2" ) then -- HW
-				rangeLower = 3470
-				rangeUpper = 4399
+				rangeLower = 3300
+				rangeUpper = 4800
 			elseif ( n == "3" ) then -- SB
-				rangeLower = 5671
-				rangeUpper = 5925
+				rangeLower = 5500
+				rangeUpper = 6200
 			elseif ( n == "4" ) then -- SHB
-				rangeLower = 8498
-				rangeUpper = 8786
+				rangeLower = 8000
+				rangeUpper = 9000
 			elseif ( n == "5" ) then -- EW
-				rangeLower = 10419
-				rangeUpper = 10716
+				rangeLower = 10000
+				rangeUpper = 11500
 			elseif ( n == "6" ) then -- DT
-				rangeLower = 12930
-				rangeUpper = 13139
+				rangeLower = 12500
+				rangeUpper = 14000
 			end
 				
 			local contentId = 0
