@@ -1,5 +1,5 @@
 ﻿DailyHuntAssistantMode = inheritsFrom(ml_task)
-DailyHuntAssistantMode.version = "3.0.3"
+DailyHuntAssistantMode.version = "3.0.4"
 DailyHuntAssistantMode.mode = 1 -- 1 - setup, 2 - run
 DailyHuntAssistantMode.modeName = "XDaily Hunt Assistant"
 DailyHuntAssistantMode.targetName = ""
